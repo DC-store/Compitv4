@@ -1,0 +1,30 @@
+#amazon key and secret key
+cloud:
+  aws:
+    credentials:
+      access-key: AKIAR75DC33OEUTLPNFQ
+      secret-key: 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
+    region:
+      static: us-east-1
+    stack:
+      auto: false
+
+application:
+      bucket:
+        name: compitprofileimages
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 20MB
+      max-file-size: 150MB
+      max-request-size: 100MB
+
+server:
+  port: 9091
+
+
+  
+  
+  
