@@ -65,7 +65,8 @@ public class CompitApplication  implements CommandLineRunner {
 	        System.out.println(dat);
 	       
 	}
-	
+
+
 	@PreDestroy
 	 public void doRun() {
 		 System.out.println("waw the application is closing its reference right now ");
