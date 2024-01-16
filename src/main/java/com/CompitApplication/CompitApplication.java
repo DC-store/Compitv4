@@ -41,7 +41,8 @@ public class CompitApplication  implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 			System.out.println("wonder full application ");
-			
+
+
 			NTPUDPClient timeClient = new NTPUDPClient();
 	        InetAddress inetAddress = InetAddress.getByName(TIME_SERVER);
 	        TimeInfo timeInfo = timeClient.getTime(inetAddress);
